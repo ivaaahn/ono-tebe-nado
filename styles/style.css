@@ -34,7 +34,7 @@
     text-underline-offset: 5px;
 }
 
-.header__links-list-item_active {
+.header__menu-link_active {
     text-decoration-line: none;
 }
 
