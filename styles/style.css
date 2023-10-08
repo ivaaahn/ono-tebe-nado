@@ -7,7 +7,7 @@
 
 .header__logo {
     justify-self: center;
-    display: inline;
+    display: block;
     width: 148px;
     height: 105px;
 }
@@ -58,6 +58,7 @@
 .cover {
     padding: 166px 50px 50px;
     background-image: url("../images/cover.jpg");
+    background-position: center;
     background-size: cover;
     width: 100%;
     position: relative;
@@ -132,7 +133,7 @@
     text-transform: uppercase;
     font-size: 22px;
     padding: 12px 32px;
-    border: 1px solid #FFF;
+    border: 1px solid currentColor;
     background-color: transparent;
     font-style: normal;
     font-weight: 400;
@@ -186,6 +187,7 @@
     flex-direction: column;
     justify-content: space-between;
     background-size: cover;
+    background-position: center;
 }
 
 .card__title {
@@ -236,7 +238,6 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
-    height: 487px;
     justify-items: center;
 }
 
@@ -282,7 +283,7 @@
 }
 
 .footer {
-    margin: 180px 50px 90px 50px;
+    margin: 185px 50px 90px 50px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: start;
